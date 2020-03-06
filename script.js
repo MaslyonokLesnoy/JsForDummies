@@ -1,4 +1,4 @@
-alert('Hello, alert!');
+//alert('Hello, alert!');
 console.log('Hello console!');
 
 // Single line comment
@@ -48,21 +48,50 @@ var lie = false;
 console.log(0 > 2);
 console.log(0< 2);
 
-
-
-
 var und; // undefinded
 var donutHole = null;
-
-// Structural object types
-var obj = {};
-var arr = [];
 
 // Get type of variable
 console.log(num);
 console.log(typeof bool);
 
+// Structural object types
 
+// object is a collection of any data type
+var obj = {
+    a: 5,
+    b: 'string in object collection',
+    c: false,
+    d: {
+        e: 10,
+        f: 15
+    },
+    z: [1, 2, 3, 4]
+};
+
+console.log(obj.b);
+obj.b = 'changed string in object collection';
+console.log(obj.b);
+
+console.log(obj.z);
+obj.z = 'array is stolen';
+console.log(obj.b);
+
+console.log(obj['c']);
+
+// add new property
+obj['new property'] = 'new value';
+
+// show object
+console.log(obj);
+
+var arr = [];
+
+var func = function(){};
+
+var regExp = /w+/g;
+var error = Error('error message');
+var date = new Date();
 
 
 
