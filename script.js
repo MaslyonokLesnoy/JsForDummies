@@ -49,7 +49,10 @@ console.log(0 > 2);
 console.log(0< 2);
 
 var und; // undefinded
+console.log('Undefinded value: ' + und);
+
 var donutHole = null;
+console.log('null type value: ' + donutHole);
 
 // Get type of variable
 console.log(num);
