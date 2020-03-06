@@ -212,3 +212,22 @@ console.log('2 != \'2\' = ' + (2 != '2'));
 console.log('2 !== \'2\' = ' + (2 !== '2'));
 console.log();
 
+console.log('Assignment operator');
+console.log();
+
+var a = 1;
+a = a + 1;
+console.log('a = 1');
+console.log('a = a + 1; a = ' + a);
+
+a += 1;
+console.log('a += 1; a = ' + a);
+
+a *= 2;
+console.log('a *= 2; a = ' + a);
+
+a /= 3;
+console.log('a /= 3; a = ' + a);
+
+console.log();
+
