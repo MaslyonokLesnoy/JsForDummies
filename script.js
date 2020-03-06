@@ -45,9 +45,6 @@ console.log(str5);
 var bool = true;
 var lie = false;
 
-console.log(0 > 2);
-console.log(0< 2);
-
 var und; // undefinded
 console.log('Undefinded value: ' + und);
 
@@ -179,4 +176,39 @@ console.log(str1 / str4); // Nan
 
 console.log('str1 % str4:');
 console.log(str1 % str4); // Nan
+
+// user input processing
+console.log('+\'100\' + +\'100\' = ');
+console.log(+'100' + +'100');
+
+// bool operations
+console.log('!lie :' + !lie);
+
+console.log('0 > 2 = ' + 0 > 2);
+console.log('0 < 2 = ' + 0 < 2);
+console.log('parenthesized expression 0 > 2 = ' + (0 > 2));
+console.log('parenthesized expression 0 < 2 = ' + (0 < 2));
+
+console.log('parenthesized expression 0 >= 2 = ' + (0 >= 2));
+console.log('parenthesized expression 0 <= 2 = ' + (0 <= 2));
+
+console.log('strict equality');
+console.log();
+console.log('2 == 2.0 = ' + (2 == 2.0));
+console.log('2 === 2.0 = ' + (2 === 2.0));
+console.log('2 == 2 = ' + (2 == 2));
+console.log('2 === 2 = ' + (2 === 2));
+console.log('2 == \'2\' = ' + (2 == '2'));
+console.log('2 === \'2\' = ' + (2 === '2'));
+console.log();
+
+console.log('not equal');
+console.log();
+console.log('2 != 2.0 = ' + (2 != 2.0));
+console.log('2 !== 2.0 = ' + (2 !== 2.0));
+console.log('2 != 2 = ' + (2 != 2));
+console.log('2 !== 2 = ' + (2 !== 2));
+console.log('2 != \'2\' = ' + (2 != '2'));
+console.log('2 !== \'2\' = ' + (2 !== '2'));
+console.log();
 
