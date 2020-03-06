@@ -116,5 +116,67 @@ var regExp = /w+/g;
 var error = Error('error message');
 var date = new Date();
 
+// operators
+// +
+console.log('2 + 3 =');
+console.log(2 + 3);
+console.log('2 + 3 =' + 2 + 3); // 2 + 3 =23
 
+// -
+console.log('2 - 3 =');
+console.log(2 - 3);
+console.log('2 - 3 =' + 2 - 3); // NaN
+
+// *
+console.log('2 * 3 =');
+console.log(2 * 3);
+console.log('2 * 3 =' + 2 * 3); // 2 * 3 =6
+
+// /
+console.log('2 / 3 =');
+console.log(2 / 3);
+console.log('2 / 3 =' + 2 / 3); // 2 * 3 =6
+
+// %
+console.log('5 % 2 =');
+console.log(5 % 2);
+console.log('2 % 3 =' + 2 % 3); // 2 % 3 = 2
+
+// ++
+var increment = 5;
+console.log('increment = 5');
+console.log('increment++ = ');
+console.log(increment++);
+console.log('increment++ = ' + increment++);  // increment++ =  6 
+
+increment = 5;
+console.log('increment = 5');
+console.log('++increment = ');
+console.log(++increment);
+console.log('++increment = ' + ++increment);  // ++increment =  6
+
+// --
+var decrement = 5;
+console.log('decrement = 5');
+console.log('decrement-- = ');
+console.log(decrement--);
+console.log('decrement-- = ' + decrement--);  // decrement-- =  4 
+
+var decrement = 5;
+console.log('decrement = 5');
+console.log('--decrement = ');
+console.log(--decrement);
+console.log('--decrement = ' + --decrement);  // --decrement =  3
+
+// string operator - concatenation
+console.log('String concatenation str1 + \' \' + str4: ' + str1 + ' ' + str4);
+
+console.log('str1 * str4:');
+console.log(str1 * str4); // Nan
+
+console.log('str1 / str4:');
+console.log(str1 / str4); // Nan
+
+console.log('str1 % str4:');
+console.log(str1 % str4); // Nan
 
