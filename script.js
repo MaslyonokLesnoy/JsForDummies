@@ -80,12 +80,32 @@ console.log(obj.b);
 console.log(obj['c']);
 
 // add new property
+// if property written with spaces this can access only by key
 obj['new property'] = 'new value';
+
 
 // show object
 console.log(obj);
 
-var arr = [];
+
+// array
+// keys are numbers
+// keys fill automaticaly
+// array can contain membeors of any type
+var arr = [1, 2, 'string in array', true, {a: 1, b: 2}, ['a', 'b']];
+
+console.log('show array: ' + arr);
+
+console.log('show member 1 of array: ' + arr[0]);
+console.log('show member 2 of array: ' + arr[1]);
+console.log('show member 3 of array: ' + arr[2]);
+console.log('show member 4 of array: ' + arr[3]);
+console.log('show member 5 of array: ' + arr[4]);
+console.log('show member 6 of array: ' + arr[5]);
+console.log('show member 7 of array: ' + arr[6]);
+
+
+
 
 var func = function(){};
 
