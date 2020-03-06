@@ -231,3 +231,19 @@ console.log('a /= 3; a = ' + a);
 
 console.log();
 
+function printConsole() {
+    console.log('Function executed');
+}
+
+printConsole();
+
+function printConsoleWithParameters(a, b) {    
+    console.log('Function executed ' + (a + b));
+    var variableInFunctionCodeBlock = 5;
+    console.log('variableInFunctionCodeBlock = ' + variableInFunctionCodeBlock);
+}
+
+printConsoleWithParameters(6, 7);
+
+console.log('variableInFunctionCodeBlock = ' + variableInFunctionCodeBlock); // Error
+
